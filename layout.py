@@ -20,4 +20,5 @@ ships = [
     [ [4,2], [5,2] ], # size 2 destroyer
 ]
 
-current = lambda: [ random.randint(-1, 1) for _ in range(2) ]
+def current():
+    return [random.randint(-1, 1) for _ in range(2)]
